@@ -1,0 +1,41 @@
+.section-media
+    display: flex
+    justify-content: center
+    align-items: center
+.section-media-2
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: row-reverse
+@media (min-width:375px) and (max-width:425px)
+    .section-media
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column-reverse
+        align-items: start
+        margin-left: 27px
+        
+        .div-media
+            margin-top: 20px
+            margin-left: 27px
+            text-align: center
+            .h
+                width: 200px
+            .p
+                width: 300px
+
+    .section-media-2
+        display: flex
+        flex-wrap: wrap
+        flex-direction: column-reverse
+        align-items: start
+        margin-left: 27px
+        
+        .div-media
+            margin-top: 20px
+            margin-left: 20px
+            text-align: center
+            .h
+                width: 200px
+            .p
+                width: 300px
